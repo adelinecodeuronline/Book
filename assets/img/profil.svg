@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="152px" height="139.333px" viewBox="0 0 152 139.333" enable-background="new 0 0 152 139.333" xml:space="preserve">
+<g>
+	<path fill="#82609C" d="M78.836,12.367c-11.737,0.937-24.991-3.714-36.148,0.473c-11.903,4.466-20.15,12.824-24.137,25.243
+		c-4.604,14.344-3.045,29.055-4.946,44.054c-1.616,12.749-10.979,25.603-8.854,39.127c1.819,11.58,20.584,16.256,30.476,14.944
+		c12.27-1.628,23.292-11.175,28.32-22.802c11.715-27.097,19.092-56.734,19.979-87.443c0.128-4.468,0.94-9.382-1.889-12.595"/>
+	<path fill="#82609C" d="M74.164,12.367c11.738,0.937,24.992-3.714,36.148,0.473c11.902,4.466,20.15,12.825,24.137,25.243
+		c4.604,14.344,3.045,29.056,4.945,44.054c1.615,12.749,10.98,25.603,8.855,39.128c-1.82,11.579-20.584,16.255-30.477,14.943
+		c-12.27-1.627-23.293-11.174-28.319-22.802C77.738,86.309,70.362,56.671,69.476,25.963c-0.129-4.468-0.941-9.382,1.887-12.596"/>
+	<path fill="#82609C" d="M134.996,111.164c0,7.808-5.175,14.139-11.558,14.139H30.22c-6.383,0-11.557-6.331-11.557-14.139V77.754
+		c0-7.808,5.174-14.139,11.557-14.139h93.219c6.383,0,11.558,6.331,11.558,14.139V111.164z"/>
+	<g>
+		<ellipse fill="#B77858" cx="76.413" cy="75.788" rx="38.704" ry="47.435"/>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="55.209" y1="113.2837" x2="100.6299" y2="34.6124">
+			<stop  offset="0" style="stop-color:#F5D79B;stop-opacity:0.7"/>
+			<stop  offset="0.1786" style="stop-color:#F5D498;stop-opacity:0.6821"/>
+			<stop  offset="0.3391" style="stop-color:#F5CC8E;stop-opacity:0.6661"/>
+			<stop  offset="0.4927" style="stop-color:#F4BE7F;stop-opacity:0.6507"/>
+			<stop  offset="0.6419" style="stop-color:#F4AB69;stop-opacity:0.6358"/>
+			<stop  offset="0.7881" style="stop-color:#F3934E;stop-opacity:0.6212"/>
+			<stop  offset="0.9301" style="stop-color:#F2772F;stop-opacity:0.607"/>
+			<stop  offset="1" style="stop-color:#F26522;stop-opacity:0.6"/>
+		</linearGradient>
+		<ellipse fill="url(#SVGID_1_)" cx="77.919" cy="73.947" rx="38.704" ry="47.437"/>
+	</g>
+	<g opacity="0.4">
+		
+			<image overflow="visible" width="721" height="446" xlink:href="CFCFFAB3.png"  transform="matrix(0.24 0 0 0.24 -12.1484 -10.8892)">
+		</image>
+	</g>
+	<path fill="#A585BD" d="M77.155,5.318c-29.964,0-54.254,24.291-54.254,54.254H131.41C131.41,29.609,107.119,5.318,77.155,5.318z"/>
+	<g opacity="0.8">
+		<circle fill="#FFFFFF" cx="63.658" cy="80.667" r="2.796"/>
+		<circle fill="#FFFFFF" cx="88.964" cy="80.667" r="2.796"/>
+	</g>
+	<path opacity="0.8" fill="#FFFFFF" d="M65.47,98.316c2.311,3.604,6.343,6,10.943,6s8.632-2.396,10.942-6H65.47z"/>
+</g>
+</svg>
