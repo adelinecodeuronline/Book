@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+
+    <title>Adeline B// | webdesigner | Bourgogne</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="./assets/css/style-index-mobile.css">
+    <link rel="stylesheet" href="./assets/css/style-index-desktop.css">
+
+    
+    <script src="./assets/js/script.js"></script>
+</head>
+
+
+<body>
+
+<!--purple top decoration-->
+<div id="deco1">
+<div id="decoration1" class="paint"></div>
+<div id="decoration2" class="paint"></div>
+<img id="pipe-top" src="./assets/img/pipe.svg" alt="pipeline"><!--pipe top decoration-->
+</div>
+
+<!--main container-->
+<div id="container-out">
+    <div id="container-in">
+        
+        <!--top fake buttons-->
+        <div id="circle1" class="fake-button"></div>
+        <div id="circle2" class="fake-button"></div>
+        <div id="circle3" class="fake-button"></div>
+
+         <!--title container-->
+         <div id="outline"></div>
+         <div id="inside"></div>
+         <p id="nom">Adeline B//</p>
+         <p id="webdesigner">Webdesigner</p>
+         <img class="world" src="assets/img/world.png" alt="little world">
+         
+         <!--line of project, cv and profile-->
+        <div id="medias-line">
+            <div id="background-about"></div> <!--profile-->
+            <img id="about" src="assets/img/profil.svg" onclick="onProfile()"alt="profile">
+            <img id="pointer" src="./assets/img/pointer.svg" onclick="onProfile()" alt="pointer">
+            <div id="under-circle-shadow"></div>
+            <div id="under-circle"></div>
+
+            <img id="picture" src="./assets/img/projects.svg" alt="picture">
+
+            <!--yellow square // CV-->
+            <div id="yellow-square" onclick="cv()">
+                <div id="green-left" class="green-rectangles" onclick="cv()"></div>
+                <div id="green-right" class="green-rectangles" onclick="cv()"></div>
+                <div id="white-paragraph" class="white-decoration"></div>
+                <div id="white-paragraph2" class="white-decoration"></div>
+                <div id="white-paragraph3" class="white-decoration"></div>
+            </div>
+        </div>
+
+        <!--slider video-->
+        <img id="slider-video" src="./assets/img/slidervideo.svg" alt="slider">
+        <div id="pink-box"></div>
+        <div id="pink-shadow-box"></div>
+        
+
+    </div>
+</div>
+
+
+<!--purple bottom decoration-->
+<div id="container-shadow"></div>
+<img id="saturn" src="./assets/img/planet.svg" alt="saturn"> 
+
+<div id="deco2">
+<img id="pipe-bottom" src="./assets/img/pipe.svg" alt="pipeline"><!--pipe bottom decoration-->
+<div id="decoration3" class="paint"></div>
+<div id="decoration4" class="paint"></div>
+<div id="decoration5" class="paint"></div>
+</div>
+
+<!--Profile's overlay-->
+<div id="overlay-profile">
+    <img class="close" onclick="offProfile()" src="./assets/img/cross.svg" alt="close">
+
+            <div id="card">
+                <div id="left">
+                    <div id="decoration-card" class="paint"></div>
+                    <div id="decoration-card2" class="paint"></div>
+                    <img id="about2" src="assets/img/profil.svg" alt="profile">
+                    <img id="portrait" src="./assets/img/future3.jpg" alt="portrait">
+                    
+                </div>
+
+                <div id="right">
+                    <p id="iam">je suis</p><h1>webdesigner</h1><h2>graphiste</h2><h3>développeuse</h3><h1 id="ovni">OVNI</h1>
+                    <p id="jeparle">je par*_l e</p><h1 id="javascript">javascript</h1><h2 id="sass">SASS</h2><h3 id="html">html</h3>
+                    <h3 id="css">CSS</h3><h3 id="humain">humain</h3><h3 id="wordpress">wordpress</h3>
+
+                    <img class="social" id="github" src="./assets/img/github-icon.svg" alt="github">
+                    <img class="social" id="linkedin" src="./assets/img/linkedin-icon.svg" alt="linkedin">
+                    <img class="social" src="./assets/img/mail-icon.svg" alt="contact" onclick="bubble()">
+
+                    <div class="popup" onclick="bubbleOff()">
+                        <span class="bubble" id="myPopup">a.bonnard@codeur.online</span>
+                    </div> 
+                </div>
+            </div>    
+            
+                    <img id="pointer2" src="./assets/img/pointer.svg" alt="pointer"> 
+                    <img id="pointer3" src="./assets/img/pointer.svg" alt="pointer">     
+
+            </div>
+
+
+<!--CV's overlay-->
+<div id="overlay-cv">
+    <img class="close" id="cross" onclick="offCv()" src="./assets/img/cross.svg" alt="close">
+
+    <a id="cv-download" href="./assets/img/cv_adeline_b.pdf" target="_blank" download="cv_adeline_b.pdf">Télécharger le CV</a>
+
+    <div class="timeline">
+
+
+        <div class="container left">
+          <div class="content">
+            <h2>2021 // 2022</h2>
+            <p>Formation webdesigner</p>
+          </div>
+        </div>
+
+        <div class="container right">
+          <div class="content">
+            <h2>2020</h2>
+            <p>Graphiste PAO [PANO Sign' Service]</p>
+          </div>
+        </div>
+     
+
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Graphiste / Communicante [PANO DECO]</p>
+        </div>
+      </div>
+
+      <div class="container right">
+        <div class="content">
+          <h2>2015 // 2017</h2>
+          <p>Graphiste freelance</p>
+        </div>
+      </div>
+    
+
+    <div class="container left">
+        <div class="content">
+          <h2>2005 // 2006</h2>
+          <p>Co-Gérante entreprise & Graphiste [Créapolis Communication]</p>
+        </div>
+      </div>
+
+    </div> 
+</div>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>// projets | webdesign | mobile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    
+    <script src="./assets/js/script-projects.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/style-projets.css">
+
+   
+</head>
+
+
+<body>
+<!--Cards-->
+    <div class="parent">
+        <div class="child">    
+            <div class="card filterDiv mobile"><img class="clients" src="./assets/img/acs-music.png" alt="acs music"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="on()"></img></div>
+            <div class="card filterDiv design"><img class="clients" id="azuream" src="./assets/img/azuream.png" alt="azuream"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onAzuream()"></img></div>
+            <div class="card filterDiv dev-web"><img class="clients" id="challengomatic" src="./assets/img/challengomatic.png" alt="challengomatic"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onChallengomatic()"></img></div>
+            <div class="card"><img src="./assets/img/eye.svg" alt="eye" class="eye"></img></div>
+            <div class="card"><img src="./assets/img/eye.svg" alt="eye" class="eye"></img></div>
+            <div class="card"><img src="./assets/img/eye.svg" alt="eye" class="eye"></img></div>
+        </div>
+    </div>
+
+    <img id="pipe-top" src="./assets/img/pipe.svg" alt="pipeline"><!--pipe top decoration-->
+    <img id="pipe-bottom" src="./assets/img/pipe.svg" alt="pipeline"><!--pipe bottom decoration-->
+
+    <img id="saturn" src="./assets/img/planet.svg" alt="saturn">
+
+    <!--Filters-->
+        <a id="dev-web" class="white-filters">Développement web</a>
+        <a id="mobile" class="white-filters">Mobile</a>
+        <a id="design" class="white-filters">Design</a>
+
+    <!--projects's details-->
+        <div id="overlay-acs"><!--ACS-->
+            <img class="close" onclick="off()" src="./assets/img/cross.svg" alt="close">
+
+            <img class="detail" src="./assets/img/screen1.png" alt="vue mobile acs music">
+            <img class="detail" src="./assets/img/screen3.png" alt="vue mobile acs music">
+            <img class="detail" src="./assets/img/screen7.png" alt="vue mobile acs music">
+                <div class="description">
+                <h1>HTML // SASS // JAVASCRIPT</h1>
+                <p>Co-création d'une application de musique hybride. Option Dark/Light mode</p>
+                <a class="button-project" href="https://github.com/adelinecodeuronline/ACS-Music" target="_blank">Voir le projet</a>
+                </div>
+            <img id="screen8" class="detail" src="./assets/img/screen8.png" alt="vue mobile acs music">
+        </div> 
+
+        <div id="overlay-azuream"><!--Azuream-->
+            <img class="close" onclick="offAzuream()" src="./assets/img/cross.svg" alt="close">
+
+            <img class="detail1" src="./assets/img/azuream-screen1.png" alt="vue web azuream">
+            <img class="detail1" src="./assets/img/robot_v2.svg" alt="photomontage azueream">
+            <img id="logo-az" class="detail" src="./assets/img/logo-azuream.svg" alt="logo azuream">
+                <div class="description1">
+                <h1>Adobe AI // PS // XD</h1>
+                <p>Co-création de la maquette d'une agence de tourisme spatial (webdesign)</p>
+                <a class="button-project" href="https://github.com/adelinecodeuronline/azuream" target="_blank">Voir le projet</a>
+                </div>
+            </div> 
+
+            <div id="overlay-challengomatic"><!--Challengomatic-->
+                <img class="close" onclick="offChallengomatic()" src="./assets/img/cross.svg" alt="close">
+    
+                <img class="detail2" src="./assets/img/challengomatic-detail.svg" alt="vue web challengomatic">
+                    <div class="description2">
+                    <h1>HTML // CSS // JAVASCRIPT</h1>
+                    <p>Design et développement d'un générateur à challenges (axé pour designers)</p>
+                    <a class="button-project" href="https://adelinecodeuronline.github.io/challeng-o-matic/index.html" target="_blank">Voir le projet</a>
+                    </div>
+                </div> 
+       
+    
+    
+</body>
+</html>
