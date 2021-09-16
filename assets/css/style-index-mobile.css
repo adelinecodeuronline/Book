@@ -19,17 +19,15 @@
     
     #deco1 { /*decoration of the left*/
         
-        width: 140vw;
-        display: flex;
-        transform: translateX(45px);
+        width: 0;
+        
     }
     
     
     #deco2 { /*decoration of the right*/
        
-        width: 240vw;
-        display: flex;
-        transform: translateX(-65px);
+        width: 0;
+      
       
     }
     
@@ -572,32 +570,11 @@
                 height: auto;
                 margin-left: 55%;
                 margin-top: -112px;
-                animation-name: pointing;
-                animation-duration: 2s;
-                animation-iteration-count: infinite;
-        }
-    
-        @keyframes pointing {
-            0% {
-              
-              transform: translatey(0px);
             }
     
-            50% {
-              
-                transform: translatey(-8px);
-              }
-    
-            100% {
-              
-              transform: translatey(0px);
-            }
-            
-          }
     
             
-    
-    
+       
             /****Bubble contact*****/
     
              /* bubble container */
