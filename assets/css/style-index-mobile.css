@@ -89,12 +89,7 @@
     
     /*top pipe*/
     #pipe-top {
-        
-        transform: rotate(160deg) translateX(-890px) translateY(-200px);
-        max-width: 320px;
-        height: auto;
-        position: fixed;
-        filter: drop-shadow(20px -5px 5px rgba(83, 83, 83, 0.20));
+      display: none;
         }
     
     
