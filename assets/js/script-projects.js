@@ -1,5 +1,15 @@
 window.onload = function() {
 
+//Media query
+/*let styleDesktop = document.querySelector('#desktop');
+const mediaQuery = window.matchMedia('(max-width: 576px)')
+const mediaDesktop = window.matchMedia('(min-width: 970px)')
+if(mediaQuery.matches) {
+  styleDesktop.disabled = true;
+} else if (mediaDesktop.matches) {
+  styleDesktop.disabled = false;
+}*/
+
  
 ////////////drag and scroll section  
 const slider = document.querySelector('.parent');

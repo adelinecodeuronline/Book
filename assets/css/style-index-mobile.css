@@ -76,11 +76,11 @@
     
     /*bottom pipe*/
     #pipe-bottom {
-        max-width: 180px;
+        max-width: 60vw;
         height: auto;
-        margin-left: 65px;
+        margin-left: 25px;
         transform: translateY(80vh);
-        position: fixed;
+        /*position: fixed;*/
         filter: drop-shadow(40px 15px 10px rgba(83, 83, 83, 0.5));
     
     }
@@ -342,6 +342,7 @@
             margin-bottom: 10px;
             margin-left: 10px;
             margin-top: 2px;
+            cursor: pointer;
         }
     
        
@@ -354,7 +355,7 @@
         #pink-shadow-box {
             background-color: #e28f75;
             width: 80vw;
-            height: 15vh;
+            height: 10vh;
             border-radius: 10px;
             margin-top: 510px;
             margin-left: 10px;
@@ -364,7 +365,7 @@
     
         #pink-box {
             width: 79.8vw;
-            height: 14.6vh;
+            height: 10.6vh;
             margin-top: 512.2px;
             margin-left: 9px;
             background-color: #ffa58a;
@@ -374,11 +375,11 @@
         }
     
         #slider-video {
-            width: auto;
-            height: 13.5vh;
+            max-width: 80vw;
+            height: 50vh;
             position: absolute;
             z-index: 9;
-            margin-top: 522px;
+            margin-top: 382px;
             margin-left: 30px;
             filter: drop-shadow(-8px 5px 2px rgba(83, 83, 83, 0.30));
         }
@@ -632,10 +633,11 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(105deg, rgba(85, 226, 160, 0.9) 50%, rgba(253, 113, 148, 0.9) 100%);
+        background: linear-gradient(105deg, rgba(124, 202, 183, 0.9) 50%, rgba(253, 113, 148, 0.9) 100%);
         z-index: 500;
         cursor: pointer; 
         overflow-y: scroll;
+        overflow-x: hidden;
         scrollbar-width: none;
       }
     
@@ -717,8 +719,8 @@
       }
     
       #cross {
-          position: fixed;
-          margin-left: 225px;
+          
+          margin-left: 255px;
       }
     
     
@@ -737,7 +739,7 @@
         text-align: center;
         display: inline-block;
         padding: 4px;
-        margin-left: 39px;
+        margin-left: 50px;
         margin-top: 45px;
         box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
            
