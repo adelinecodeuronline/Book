@@ -118,12 +118,12 @@
     
         .eye {
             background-color: #EE8274;
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border-radius: 100%;
             text-align: center;
             margin-top: 260px;
-            margin-left: 62px;
+            margin-left: 70px;
             padding: 10px;
             filter: drop-shadow(-2px 2px 0.5px rgba(82, 63, 63, 0.1));  
             position: relative;
@@ -142,7 +142,7 @@
             opacity: 0.83;
         }
     
-        #azuream, #challengomatic {
+        #azuream, #challengomatic, #koolcake {
         max-width: 300px !important;
         margin-left: -30px !important;
         margin-top: 55px !important;
@@ -221,7 +221,7 @@
     
     
       /******ACS*******/
-      #overlay-acs, #overlay-azuream, #overlay-challengomatic {
+      #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake {
         position: fixed; 
         display: none; 
         width: 100%; 
@@ -304,6 +304,12 @@
         margin-top: 96px;
         
     }
+
+
+    #overlay-azuream .button-project {
+        margin-top: -140px !important;
+        margin-left: 220px !important;
+    }
     
     /******Challengomatic*******/
     
@@ -322,9 +328,49 @@
         margin-top: 7px;
         
     }
+
+    #overlay-challengomatic .button-project {
+        margin-top: -120px !important;
+        margin-left: 205px !important;
+    }
+
+
+    /************KoolCake*************/
     
+  
+
+.detail3 {
+    max-width: 170%;
+    height: auto;
+    margin-left: -30px;
+    margin-top: 70px;
+}
+
+
+#illustration {
+    position: absolute;
+    transform: translateX(10px);
+    margin-top: -80px;
+    width: 65%;
+    height: auto;
     
+}
+
+.description3 {
+    max-width: 78%;
+    color: white;
+    position: absolute;
+    transform: translateX(20px);
+    margin-top: 180px;
     
+}
+
+
+#overlay-koolcake .button-project {
+    margin-top: -220px !important;
+    margin-left: 205px !important;
+}
+
     
     
      

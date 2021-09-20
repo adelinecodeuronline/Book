@@ -42,9 +42,6 @@ reset.addEventListener('click', allDisplay);
 }
 
 
-
-
-
 //////////filters
 
 
@@ -105,7 +102,15 @@ function offChallengomatic() {
   document.querySelector("#overlay-challengomatic").style.display = "none";
 } 
 
+//KoolCake's overlay
 
+function onKoolcake() {
+  document.querySelector('#overlay-koolcake').style.display = "block";
+}
+
+function offKoolcake() {
+  document.querySelector('#overlay-koolcake').style.display = "none";
+}
 
 
  ///////////////////////////////////////////// 

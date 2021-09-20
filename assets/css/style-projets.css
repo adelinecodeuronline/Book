@@ -94,7 +94,7 @@ body {
 
 #saturn {
 
-    margin-left: 880px;
+    margin-left: 80px;
     margin-top: 48px;
     position: absolute;
     z-index: 10;
@@ -151,7 +151,7 @@ body {
         opacity: 0.83;
     }
 
-    #azuream, #challengomatic {
+    #azuream, #challengomatic, #koolcake {
     max-width: 300px !important;
     margin-left: -30px !important;
     margin-top: 55px !important;
@@ -191,6 +191,7 @@ body {
     height: auto;
     filter: drop-shadow(-2px 1px 0.5px rgba(82, 63, 63, 0.3));  
     position: absolute;
+    z-index: 500;
     transform: translateX(1235px);
     margin-top: 45px;
   }
@@ -224,7 +225,7 @@ p {
 
 
   /******ACS*******/
-  #overlay-acs, #overlay-azuream, #overlay-challengomatic {
+  #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake {
     position: fixed; 
     display: none; 
     width: 100%; 
@@ -300,6 +301,70 @@ p {
     margin-top: -400px;
     
 }
+
+/******KoolCake*******/
+
+
+.detail3 {
+    max-width: 68%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+
+#illustration {
+    position: absolute;
+    transform: translateX(10px);
+    margin-top: 30px;
+    width: 25%;
+    height: auto;
+    
+}
+
+.description3 {
+    max-width: 26%;
+    color: white;
+    position: absolute;
+    transform: translateX(1020px);
+    margin-top: -210px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
