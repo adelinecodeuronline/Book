@@ -16,6 +16,7 @@
         font-family: 'Nunito', sans-serif; 
         overflow: hidden;
         
+        
        
     }
     
@@ -23,10 +24,11 @@
     /*top pipe*/
     #pipe-top {
         
-        transform: rotate(90deg) translateX(-15px) translateY(65px);
+        transform: rotate(90deg) translateX(-95px) translateY(85px);
         max-width: 220px;
         height: auto;
-        position: fixed;
+        position: absolute;
+        z-index: 0;
         filter: drop-shadow(20px -5px 5px rgba(83, 83, 83, 0.20));
         }
     
@@ -41,38 +43,53 @@
     /*Filters*/
     
     .white-filters {
-    
+
         text-decoration: none;
-        width: 250px;
+        width: 180px;
         border-radius: 20px;
         background-color: white;
         color: #EE8274;
         font-size: 1em;
         font-weight: 600;
         text-align: center;
-        display: block;
+        display: inline-block;
+        margin-top: 7px;
+        margin-left: 15px;
+        position: absolute;
+        z-index: 200;
         padding: 2px;
-        margin-left: 89px;
         box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
+        cursor: pointer;
+        
            
     }
     
+    #all {
+        margin-left: 160px;
+        margin-top: 40px !important;
+        width: 130px;
+        margin-bottom: 25px;
+        
+    }
+    
     #dev-web {
-        margin-left: 90px;
-        margin-top: 26px;
-        margin-bottom: 20px;
+       
+         width: 50px !important;
+        
+        
         
     }
     
     #design {
         width: 180px !important;
-        margin-left: 75px;
+        margin-top: 75px;
+        margin-left: 120px;
+       
     }
     
     #mobile {
-        margin-top: 50px !important;
-        margin-left: 170px !important;
-        position: absolute;
+        margin-top: 5px !important;
+        margin-left: 240px !important;
         width: 100px !important;
     }
     
@@ -93,9 +110,6 @@
         border: 8px solid white;
         border-radius: 30px;
         filter: drop-shadow(0 5px 1.5px rgba(83, 83, 83, 0.50));  
-        display: flex;
-        flex-direction: row;
-        display: block;
         margin-bottom: 100px;
         margin-left: 50px;
                 
@@ -143,13 +157,19 @@
     
     .parent{
         width: 100%;
-        height: 1000px;
-        overflow-x: hidden; 
-        margin-top: 195px;
+        height: 630px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scrollbar-width: 0; 
+        margin-top: 115px;
         margin-left: 5px;
         position: absolute;
+        display: flex;
+        flex-wrap: wrap;
         z-index: 50;
         
+        
+       
       }
       .child{
         width: 500vw;

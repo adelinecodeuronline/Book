@@ -23,7 +23,7 @@ body {
 /*top pipe*/
 #pipe-top {
     
-    transform: rotate(90deg) translateX(-80px) translateY(65px);
+    transform: rotate(90deg) translateX(-80px) translateY(950px);
     max-width: 320px;
     height: auto;
     position: fixed;
@@ -36,7 +36,7 @@ body {
 #pipe-bottom {
     max-width: 250px;
     height: auto;
-    transform: rotate(-125deg) translateX(-1000px) translateY(750px);
+    transform: rotate(-125deg) translateX(-450px) translateY(-50px);
     position: fixed;
     filter: drop-shadow(20px 10px 10px rgba(83, 83, 83, 0.5));
 
@@ -56,19 +56,31 @@ body {
     text-align: center;
     display: inline-block;
     padding: 2px;
-    margin-left: 39px;
+    margin-left: 69px;
     box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
+    cursor: pointer;
+    
        
+}
+
+#all {
+    margin-left: 250px;
+    margin-top: 56px !important;
+    width: 150px;
 }
 
 #dev-web {
     margin-left: 350px;
-    margin-top: 56px;
+    margin-top: 96px;
+    position: absolute !important;
     
 }
 
 #design {
     width: 180px !important;
+    margin-top: 15px;
+    margin-left: -80px;
+    position: absolute;
 }
 
 #mobile {
@@ -83,7 +95,7 @@ body {
 #saturn {
 
     margin-left: 880px;
-    margin-top: 56px;
+    margin-top: 48px;
     position: absolute;
     z-index: 10;
     max-width: 15vw;  
@@ -100,8 +112,6 @@ body {
     border: 8px solid white;
     border-radius: 30px;
     filter: drop-shadow(0 5px 1.5px rgba(83, 83, 83, 0.50));  
-    display: flex;
-    flex-direction: column;
     display: inline-block;
     margin-right: 60px;
     cursor: grab;
@@ -149,8 +159,6 @@ body {
     
     }
 
-   
-
 
 /*************Scrolling section********************/
 
@@ -158,7 +166,7 @@ body {
     width: 100%;
     height: 1000px;
     overflow-x: hidden; 
-    margin-top: 195px;
+    margin-top: 105px;
     margin-left: 5px;
     position: absolute;
     z-index: 50;
@@ -171,6 +179,10 @@ body {
     padding:10px;
     
   }
+
+  /**************for filters********************/
+
+ 
 
   /*overlays*/
 

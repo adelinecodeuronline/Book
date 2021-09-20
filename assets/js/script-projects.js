@@ -1,17 +1,6 @@
 window.onload = function() {
 
-//Media query
-/*let styleDesktop = document.querySelector('#desktop');
-const mediaQuery = window.matchMedia('(max-width: 576px)')
-const mediaDesktop = window.matchMedia('(min-width: 970px)')
-if(mediaQuery.matches) {
-  styleDesktop.disabled = true;
-} else if (mediaDesktop.matches) {
-  styleDesktop.disabled = false;
-}*/
-
- 
-////////////drag and scroll section  
+  ////////////drag and scroll section  
 const slider = document.querySelector('.parent');
 let mouseDown = false;
 let startX, scrollLeft;
@@ -38,10 +27,55 @@ slider.addEventListener('mousedown', startDragging, false);
 slider.addEventListener('mouseup', stopDragging, false);
 slider.addEventListener('mouseleave', stopDragging, false);
 
+
+
+/////////////////////////////////////////////////////filters
+
+const filters = document.querySelectorAll('.white-filters');
+filters.forEach(button => {
+  button.addEventListener('click', filterCards);
+} );
+
+const reset = document.querySelector('#all');
+reset.addEventListener('click', allDisplay);
+
 }
 
 
 
+
+
+//////////filters
+
+
+function filterCards() {
+  let filtering = this.dataset.filter;
+  let cards = document.querySelectorAll('.card');
+  
+  cards.forEach(item => {
+    if(item.classList.contains(filtering)){
+      item.style.display = "inline-block"; 
+    } else {
+      item.style.display = "none";
+    }
+  });
+  
+  }
+
+function allDisplay() {
+  let cards = document.querySelectorAll('.card');
+  
+  for(i = 0; i < cards.length; i++) {
+  cards[i].style.display = "inline-block";
+}
+
+}
+
+
+
+
+   
+ 
 ////////Open overlay's project detail
 //ACS's overlay
 function on() {
@@ -73,3 +107,15 @@ function offChallengomatic() {
 
 
 
+
+ ///////////////////////////////////////////// 
+
+//Media query
+/*let styleDesktop = document.querySelector('#desktop');
+const mediaQuery = window.matchMedia('(max-width: 576px)')
+const mediaDesktop = window.matchMedia('(min-width: 970px)')
+if(mediaQuery.matches) {
+  styleDesktop.disabled = true;
+} else if (mediaDesktop.matches) {
+  styleDesktop.disabled = false;
+}*/

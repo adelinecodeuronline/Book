@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"> 
     
     <script src="./assets/js/script-projects.js"></script>
+    
 
     
     <link id="desktop" rel="stylesheet" href="./assets/css/style-projets.css">
@@ -21,12 +22,22 @@
 
 
 <body>
+
+    <!--Filters-->
+    <a id ="all" class="white-filters">Tout voir</a>
+    <a data-filter ="dev-webCard" class="white-filters" id="dev-web ">Développement web</a>
+    <a data-filter="mobileCard" class="white-filters" id="mobile">Mobile</a>
+    <a data-filter="designCard" class="white-filters" id="design">Design</a>
+    
 <!--Cards-->
     <div class="parent">
         <div class="child">    
-            <div class="card filterDiv mobile"><img class="clients" src="./assets/img/acs-music.png" alt="acs music"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="on()"></img></div>
-            <div class="card filterDiv design"><img class="clients" id="azuream" src="./assets/img/azuream.png" alt="azuream"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onAzuream()"></img></div>
-            <div class="card filterDiv dev-web"><img class="clients" id="challengomatic" src="./assets/img/challengomatic.png" alt="challengomatic"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onChallengomatic()"></img></div>
+            <div class="card mobileCard"><img class="clients" src="./assets/img/acs-music.png" alt="acs music"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="on()"></img></div>
+            <div class="card designCard"><img class="clients" id="azuream" src="./assets/img/azuream.png" alt="azuream"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onAzuream()"></img></div>
+            <div class="card dev-webCard"><img class="clients" id="challengomatic" src="./assets/img/challengomatic.png" alt="challengomatic"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onChallengomatic()"></img></div>
+            <div class="card mobileCard"><img class="clients" src="./assets/img/acs-music.png" alt="acs music"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="on()"></img></div>
+            <div class="card designCard"><img class="clients" id="azuream" src="./assets/img/azuream.png" alt="azuream"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onAzuream()"></img></div>
+            <div class="card dev-webCard"><img class="clients" id="challengomatic" src="./assets/img/challengomatic.png" alt="challengomatic"><img src="./assets/img/eye.svg" alt="eye" class="eye" onclick="onChallengomatic()"></img></div>
             <div class="card"><img src="./assets/img/eye.svg" alt="eye" class="eye"></img></div>
             <div class="card"><img src="./assets/img/eye.svg" alt="eye" class="eye"></img></div>
             <div class="card"><img src="./assets/img/eye.svg" alt="eye" class="eye"></img></div>
@@ -38,10 +49,7 @@
 
     <img id="saturn" src="./assets/img/planet.svg" alt="saturn">
 
-    <!--Filters-->
-        <a id="dev-web" class="white-filters">Développement web</a>
-        <a id="mobile" class="white-filters">Mobile</a>
-        <a id="design" class="white-filters">Design</a>
+    
 
     <!--projects's details-->
         <div id="overlay-acs"><!--ACS-->

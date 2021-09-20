@@ -299,6 +299,8 @@
             margin-left: -165px;
             padding: 10px;
             cursor: pointer;
+            position: absolute;
+            z-index: 20;
         }
     
         #picture {
@@ -329,6 +331,7 @@
             margin-top: 6px;
             margin-bottom: 8px;
             cursor: pointer;
+            
         }
     
        
@@ -379,7 +382,7 @@
             height: 50vh;
             position: absolute;
             z-index: 9;
-            margin-top: 382px;
+            transform: translateY(380px);
             margin-left: 30px;
             filter: drop-shadow(-8px 5px 2px rgba(83, 83, 83, 0.30));
         }
@@ -410,14 +413,14 @@
             height: auto;
             filter: drop-shadow(-2px 1px 0.5px rgba(82, 63, 63, 0.3));  
             position: absolute;
-            transform: translateX(35px);
+            transform: translateX(30px);
             margin-top: 18px;
           }
     
           #card {
             display: flex;
             flex-direction: column;
-            transform: translateY(28%) translateX(18px);
+            transform: translateY(28%) translateX(8%);
             height : 357.5px;
            
                           
@@ -436,6 +439,7 @@
                 
                 background-color: #F5E9ED;
                 height : 377.5px;
+                padding-bottom: 60px;
                 width: 320px;
                 border-radius: 0 0 20px 20px;
                 position: relative;
@@ -556,7 +560,7 @@
             .social {
                 display: inline-block;
                 padding-right: 5px;
-                margin-top: 138px;
+                transform: translateY(-510px) translateX(140px);
                 margin-left: 10px;
                 width: 35px;
                 height: auto;
@@ -598,9 +602,8 @@
         border-radius: 6px;
         padding: 8px 0;
         position: absolute;
-        z-index: 1;
-        bottom: 115%;
-        left: 40%;
+        z-index: 200;
+        transform: translateY(-550px);
         margin-left: -100px;
         
       }
