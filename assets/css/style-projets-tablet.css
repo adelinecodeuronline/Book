@@ -1,0 +1,447 @@
+@media (min-width: 768px) and (max-width: 991px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    
+    body {
+        
+        background: linear-gradient(20deg, rgb(253, 215, 198) 20%, rgb(253, 166, 131) 82%);
+        background-attachment: fixed;
+        height: 100%;
+        position: relative;
+        font-family: 'Nunito', sans-serif; 
+        overflow: hidden;
+        
+        
+       
+    }
+    
+    
+    /*top pipe*/
+    #pipe-top {
+        
+        transform: rotate(-90deg) translateX(-135px) translateY(-70px);
+        max-width: 450px;
+        height: auto;
+        position: absolute;
+        z-index: 0;
+        filter: drop-shadow(20px -5px 5px rgba(83, 83, 83, 0.20));
+        }
+    
+    
+    
+        /*bottom pipe*/
+    #pipe-bottom {
+        
+            transform: rotate(-90deg) translateX(-895px) translateY(385px);
+            max-width: 450px;
+            height: auto;
+            position: absolute;
+            z-index: 0;
+            filter: drop-shadow(20px -5px 5px rgba(83, 83, 83, 0.20));
+        
+         
+    }
+    
+    /*Filters*/
+    
+    .white-filters {
+
+        text-decoration: none;
+        width: 180px;
+        border-radius: 20px;
+        background-color: white;
+        color: #EE8274;
+        font-size: 1em;
+        font-weight: 600;
+        text-align: center;
+        display: inline-block;
+        margin-top: 42px;
+        margin-left: 115px;
+        position: absolute;
+        z-index: 200;
+        padding: 2px;
+        box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
+        cursor: pointer;
+        
+           
+    }
+    
+    #all {
+        margin-left: 260px;
+        margin-top: 90px !important;
+        width: 170px;
+        margin-bottom: 25px;
+        
+    }
+    
+    #dev-web {
+      
+         width: 50px !important;
+             
+    }
+    
+    #design {
+        width: 220px !important;
+        margin-top: 75px;
+        margin-left: 470px;
+       
+    }
+    
+    #mobile {
+        margin-top: 42px !important;
+        margin-left: 360px !important;
+        width: 100px !important;
+    }
+    
+    /*saturn planet*/
+    
+    #saturn {
+    
+        display: none;
+    }
+    
+
+ 
+     
+    /*cards*/
+    
+    .card {
+        width: 240px;
+        height: 320px;
+        background-color: #FDDBCA;
+        border: 8px solid white;
+        border-radius: 30px;
+        filter: drop-shadow(0 5px 1.5px rgba(83, 83, 83, 0.50));  
+        margin-bottom: 100px;
+        margin-left: 50px;
+                
+        }
+    
+    
+        .eye {
+            background-color: #EE8274;
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            text-align: center;
+            margin-top: 260px;
+            margin-left: 70px;
+            padding: 10px;
+            filter: drop-shadow(-2px 2px 0.5px rgba(82, 63, 63, 0.1));  
+            position: relative;
+            z-index: 100;
+            cursor: pointer;
+        }
+    
+    
+        .clients {
+            margin-left: 35px;
+            margin-top: -15px;
+            max-width: 175px;
+            position: absolute;
+            z-index: 0;
+            height: auto;
+            opacity: 0.83;
+        }
+    
+        #azuream, #challengomatic, #koolcake, #newsletter {
+        max-width: 300px !important;
+        margin-left: -30px !important;
+        margin-top: 55px !important;
+        
+        
+        }
+    
+       
+    
+    
+    /*************Scrolling section********************/
+    
+    .parent{
+        width: 100%;
+        height: 930px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scrollbar-width: 0; 
+        margin-top: 145px;
+        margin-left: 23%;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 50;
+        
+        
+       
+      }
+      .child{
+        width: 500vw;
+        font-size: 15px;
+        font-family:arial;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        
+      }
+    
+      /*overlays*/
+    
+      .close {
+        width: 60px;
+        height: auto;
+        filter: drop-shadow(-2px 1px 0.5px rgba(82, 63, 63, 0.3));  
+        position: absolute;
+        z-index: 200;
+        transform: translateX(570px);
+        margin-top: 45px;
+      }
+    
+      
+      #h1 {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    
+    p {
+        font-size: 1.2em;
+        font-weight: 400;
+       
+    }
+    
+    .button-project {
+      text-decoration: none;
+      width: 100px;
+      border-radius: 20px;
+      background-color: white;
+      color: #EE8274;
+      font-size: 1em;
+      font-weight: 600;
+      text-align: center;
+      padding: 8px;
+      box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
+      position: absolute;
+      margin-top: 7px;
+    
+    }
+    
+    
+      /******ACS*******/
+      #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake,
+      #overlay-newsletter {
+        position: fixed; 
+        display: none; 
+        width: 100%; 
+        height: 100%; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 152, 111, 0.88); 
+        z-index: 500;
+        cursor: pointer; 
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scrollbar-width: 0;
+
+      }
+    
+      #screen8 {
+        position: absolute;
+        transform: rotate(-25deg) translateX(-80px);
+        margin-top: 730px;
+        height: auto;
+    }
+    
+    .detail {
+        max-width: 250px;
+        height: auto;
+        
+    }
+
+    .detail:nth-child(2) {
+        position: absolute;
+        z-index: 100;
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+
+    #sign {
+        position: absolute;
+        z-index: 100;
+        margin-left: 450px;
+        margin-top: 690px;
+        transform: rotate(-25deg);
+    }
+    
+     .description {
+          max-width: 78%;
+          color: white;
+          position: absolute;
+          transform: translateX(18px);
+          margin-top: 60px;
+          
+      }
+    
+    
+      /******Azuream*******/
+    
+    #logo-az {
+       display: none;
+    }
+
+    #robot {
+        max-width: 58%;
+        position: absolute;
+        z-index: 200;
+        margin-top: 430px;
+        margin-left: -305px
+    }
+    
+    .detail1 {
+        max-width: 78%;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    .description1 {
+        max-width: 78%;
+        color: white;
+        position: absolute;
+        transform: translateX(10px);
+        margin-top: 96px;
+        
+    }
+
+
+    #overlay-azuream .button-project {
+        margin-top: -140px !important;
+        margin-left: 220px !important;
+    }
+    
+    /******Challengomatic*******/
+    
+    .detail2 {
+        max-width: 180%;
+        height: auto;
+        margin-left: -150px;
+        margin-top: 130px;
+    }
+    
+    .description2 {
+        max-width: 78%;
+        color: white;
+        position: absolute;
+        transform: translateX(20px);
+        margin-top: 37px;
+        
+    }
+
+    #overlay-challengomatic .button-project {
+        margin-top: -10px !important;
+        margin-left: 205px !important;
+    }
+
+
+    /************KoolCake*************/
+    
+  
+
+.detail3 {
+    max-width: 170%;
+    height: auto;
+    margin-left: -30px;
+    margin-top: 70px;
+}
+
+
+#illustration {
+    position: absolute;
+    transform: translateX(10px);
+    margin-top: -80px;
+    width: 65%;
+    height: auto;
+    
+}
+
+.description3 {
+    max-width: 28%;
+    color: white;
+    position: absolute;
+    transform: translateX(550px);
+    margin-top: 80px;
+    
+}
+
+
+#overlay-koolcake .button-project {
+    margin-top: 50px !important;
+    margin-left: 55px !important;
+}
+
+    
+/******Newsletter*******/
+
+.detail4 {
+    max-width: 84%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 113px;
+}
+
+.description4 {
+    max-width: 78%;
+    color: white;
+    position: absolute;
+    transform: translateX(20px);
+    margin-top: 20px;
+    
+}   
+
+#overlay-newsletter .button-project {
+    margin-top: 30px !important;
+    margin-left: 205px !important;
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (max-width: 767px) {
 
     * {
         margin: 0;
@@ -36,7 +36,12 @@
     
         /*bottom pipe*/
     #pipe-bottom {
-       display:none;
+        transform: rotate(-90deg) translateX(-595px) translateY(185px);
+        max-width: 220px;
+        height: auto;
+        position: absolute;
+        z-index: 0;
+        filter: drop-shadow(20px -5px 5px rgba(83, 83, 83, 0.20));
     
     }
     
@@ -100,7 +105,9 @@
         display: none;
     }
     
-    
+
+ 
+     
     /*cards*/
     
     .card {
@@ -142,7 +149,7 @@
             opacity: 0.83;
         }
     
-        #azuream, #challengomatic, #koolcake {
+        #azuream, #challengomatic, #koolcake, #newsletter {
         max-width: 300px !important;
         margin-left: -30px !important;
         margin-top: 55px !important;
@@ -157,7 +164,7 @@
     
     .parent{
         width: 100%;
-        height: 630px;
+        height: 550px;
         overflow-x: hidden;
         overflow-y: scroll;
         scrollbar-width: 0; 
@@ -221,7 +228,8 @@
     
     
       /******ACS*******/
-      #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake {
+      #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake,
+      #overlay-newsletter {
         position: fixed; 
         display: none; 
         width: 100%; 
@@ -372,12 +380,50 @@
 }
 
     
+/******Newsletter*******/
+
+.detail4 {
+    max-width: 84%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 113px;
+}
+
+.description4 {
+    max-width: 78%;
+    color: white;
+    position: absolute;
+    transform: translateX(20px);
+    margin-top: 20px;
     
+}   
+
+#overlay-newsletter .button-project {
+    margin-top: -100px !important;
+    margin-left: 205px !important;
+}
      
     
     
      
-    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
 

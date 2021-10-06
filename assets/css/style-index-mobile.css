@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     * {
         margin: 0;
         padding: 0;
@@ -715,7 +715,8 @@
         border-radius: 20px;
         text-align: left;
       }
-    
+
+     
       .content h2 {
           color: white;
           font-size: 1em;

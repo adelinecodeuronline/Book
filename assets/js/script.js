@@ -17,6 +17,7 @@ github.addEventListener("click", githubLink);
 function hoverProfile() {
     let profile = document.querySelector("#about2");
     profile.style.display = "block"; 
+    
 }
 
 

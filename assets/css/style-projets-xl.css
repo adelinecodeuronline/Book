@@ -1,0 +1,355 @@
+@media (min-width: 1400px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    
+    body {
+        
+        background: linear-gradient(20deg, rgb(253, 215, 198) 20%, rgb(253, 166, 131) 82%);
+        background-attachment: fixed;
+        height: 100%;
+        position: relative;
+        font-family: 'Nunito', sans-serif; 
+        overflow: hidden;
+        
+       
+    }
+    
+    
+    /*top pipe*/
+    #pipe-top {
+        
+        transform: rotate(90deg) translateX(-80px) translateY(950px);
+        max-width: 320px;
+        height: auto;
+        position: fixed;
+        filter: drop-shadow(20px -5px 5px rgba(83, 83, 83, 0.20));
+        }
+    
+    
+    
+        /*bottom pipe*/
+    #pipe-bottom {
+        max-width: 250px;
+        height: auto;
+        transform: rotate(-125deg) translateX(-450px) translateY(-50px);
+        position: fixed;
+        filter: drop-shadow(20px 10px 10px rgba(83, 83, 83, 0.5));
+    
+    }
+    
+    /*Filters*/
+    
+    .white-filters {
+    
+        text-decoration: none;
+        width: 380px;
+        border-radius: 20px;
+        background-color: white;
+        color: #EE8274;
+        font-size: 1em;
+        font-weight: 600;
+        text-align: center;
+        display: inline-block;
+        padding: 2px;
+        margin-left: 69px;
+        box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
+        cursor: pointer;
+        
+           
+    }
+    
+    #all {
+        margin-left: 250px;
+        margin-top: 56px !important;
+        width: 150px;
+    }
+    
+    #dev-web {
+        margin-left: 350px;
+        margin-top: 96px;
+        position: absolute !important;
+        
+    }
+    
+    #design {
+        width: 180px !important;
+        margin-top: 15px;
+        margin-left: -80px;
+        position: absolute;
+    }
+    
+    #mobile {
+        margin-top: 110px !important;
+        margin-left: -350px !important;
+        position: absolute;
+        width: 100px !important;
+    }
+    
+    /*saturn planet*/
+    
+    #saturn {
+    
+        margin-left: 80px;
+        margin-top: 48px;
+        position: absolute;
+        z-index: 10;
+        max-width: 15vw;  
+        transform: rotate(-55deg);
+    }
+    
+    
+    /*cards*/
+    
+    .card {
+        width: 240px;
+        height: 320px;
+        background-color: #FDDBCA;
+        border: 8px solid white;
+        border-radius: 30px;
+        filter: drop-shadow(0 5px 1.5px rgba(83, 83, 83, 0.50));  
+        display: inline-block;
+        margin-right: 60px;
+        cursor: grab;
+        transition: .3s ease-in-out;
+        
+        }
+    
+        .card:hover {
+    
+            transform: translateY(22px);
+    
+        }
+    
+        .eye {
+            background-color: #EE8274;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            text-align: center;
+            margin-top: 260px;
+            margin-left: 62px;
+            padding: 10px;
+            filter: drop-shadow(-2px 2px 0.5px rgba(82, 63, 63, 0.1));  
+            position: relative;
+            z-index: 100;
+            cursor: pointer;
+        }
+    
+    
+        .clients {
+            margin-left: 35px;
+            margin-top: -15px;
+            max-width: 175px;
+            position: absolute;
+            z-index: 0;
+            height: auto;
+            opacity: 0.83;
+        }
+    
+        #azuream, #challengomatic, #koolcake, #newsletter {
+        max-width: 300px !important;
+        margin-left: -30px !important;
+        margin-top: 55px !important;
+        
+        
+        }
+    
+    
+    /*************Scrolling section********************/
+    
+    .parent{
+        width: 100%;
+        height: 1000px;
+        overflow-x: hidden; 
+        margin-top: 105px;
+        margin-left: 5px;
+        position: absolute;
+        z-index: 50;
+        
+      }
+      .child{
+        width: 500vw;
+        font-size:15px;
+        font-family:arial;
+        padding:10px;
+        
+      }
+    
+      /**************for filters********************/
+    
+     
+    
+      /*overlays*/
+    
+      .close {
+        width: 60px;
+        height: auto;
+        filter: drop-shadow(-2px 1px 0.5px rgba(82, 63, 63, 0.3));  
+        position: absolute;
+        z-index: 500;
+        transform: translateX(1635px);
+        margin-top: 45px;
+      }
+    
+      
+      #h1 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+    
+    p {
+        font-size: 1.2em;
+        font-weight: 400;
+       
+    }
+    
+    .button-project {
+      text-decoration: none;
+      width: 100px;
+      border-radius: 20px;
+      background-color: white;
+      color: #EE8274;
+      font-size: 1em;
+      font-weight: 600;
+      text-align: center;
+      padding: 8px;
+      box-shadow: -1px 2px 0.8px rgba(83, 83, 83, 0.20);
+      position: absolute;
+      margin-top: 30px;
+    }
+    
+    
+      /******ACS*******/
+      #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake,
+      #overlay-newsletter {
+        position: fixed; 
+        display: none; 
+        width: 100%; 
+        height: 100%; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 152, 111, 0.88); 
+        z-index: 500;
+        cursor: pointer; 
+      }
+    
+      #screen8 {
+        position: absolute;
+        transform: translateX(250px);
+        margin-top: 410px;
+    }
+    
+    .detail {
+        max-width: 20%;
+        height: auto;
+    }
+    
+     .description {
+          max-width: 20%;
+          color: white;
+          position: absolute;
+          transform: translateX(1250px);
+          margin-top: -480px;
+          
+      }
+    
+    
+      /******Azuream*******/
+    
+    #logo-az {
+        position: absolute;
+        transform: translateX(70px);
+        margin-top: 230px;
+        
+    }
+    
+    .detail1 {
+        max-width: 28%;
+        height: auto;
+        margin-left: 55px;
+    }
+    
+    .description1 {
+        max-width: 20%;
+        color: white;
+        position: absolute;
+        transform: translateX(750px);
+        margin-top: -820px;
+        
+    }
+    
+    /******Challengomatic*******/
+    
+    .detail2 {
+        max-width: 68%;
+        height: auto;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+    .description2 {
+        max-width: 26%;
+        color: white;
+        position: absolute;
+        transform: translateX(1320px);
+        margin-top: -400px;
+        
+    }
+    
+    /******KoolCake*******/
+    
+    
+    .detail3 {
+        max-width: 68%;
+        height: auto;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+    
+    #illustration {
+        position: absolute;
+        transform: translateX(10px);
+        margin-top: 30px;
+        width: 25%;
+        height: auto;
+        
+    }
+    
+    .description3 {
+        max-width: 26%;
+        color: white;
+        position: absolute;
+        transform: translateX(1320px);
+        margin-top: -80px;
+        
+    }
+    
+    /******Newsletter*******/
+    
+    .detail4 {
+        max-width: 37%;
+        height: auto;
+        margin-left: 30px;
+        margin-top: 3px;
+    }
+    
+    .description4 {
+        max-width: 26%;
+        color: white;
+        position: absolute;
+        transform: translateX(820px);
+        margin-top: -400px;
+        
+    }
+    
+    
+    
+}

@@ -42,7 +42,7 @@ reset.addEventListener('click', allDisplay);
 }
 
 
-//////////filters
+//////////filters\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 function filterCards() {
@@ -110,6 +110,16 @@ function onKoolcake() {
 
 function offKoolcake() {
   document.querySelector('#overlay-koolcake').style.display = "none";
+}
+
+//Newsletter's overlay
+
+function onNewsletter() {
+  document.querySelector('#overlay-newsletter').style.display = "block";
+}
+
+function offNewsletter() {
+  document.querySelector('#overlay-newsletter').style.display = "none";
 }
 
 
