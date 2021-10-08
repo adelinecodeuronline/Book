@@ -123,6 +123,17 @@ function offNewsletter() {
 }
 
 
+//Onclesam's overlay
+
+function onOnclesam() {
+  document.querySelector('#overlay-onclesam').style.display = "block";
+}
+
+function offOnclesam() {
+  document.querySelector('#overlay-onclesam').style.display = "none";
+}
+
+
  ///////////////////////////////////////////// 
 
 //Media query

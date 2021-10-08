@@ -149,7 +149,7 @@
             opacity: 0.83;
         }
     
-        #azuream, #challengomatic, #koolcake, #newsletter {
+        #azuream, #challengomatic, #koolcake, #newsletter, #onclesam {
         max-width: 300px !important;
         margin-left: -30px !important;
         margin-top: 55px !important;
@@ -231,7 +231,7 @@
     
       /******ACS*******/
       #overlay-acs, #overlay-azuream, #overlay-challengomatic, #overlay-koolcake,
-      #overlay-newsletter {
+      #overlay-newsletter, #overlay-onclesam {
         position: fixed; 
         display: none; 
         width: 100%; 
@@ -408,37 +408,23 @@
      
 
 
+/******Oncle Sammy*******/
 
+.detail5 {
+    max-width: 84%;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 113px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.description5 {
+    max-width: 78%;
+    color: white;
+    position: absolute;
+    transform: translateX(20px);
+    margin-top: 20px;
+    
+}     
 
 
 
